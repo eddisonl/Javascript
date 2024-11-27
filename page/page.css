@@ -1,0 +1,73 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+  border-radius: 5rem;
+}
+
+main {
+  background-color: color-mix(
+    in hsl increasing hue,
+    rgba(26, 26, 192, 0.233),
+    rgba(193, 90, 196, 0.438)
+  );
+  padding: 3rem;
+}
+/* .bg-icon {
+  background-image: url("/icecreammm.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 18rem;
+  min-height: 10rem;
+} */
+
+.col {
+  flex: 1 0 0%;
+}
+.row > * {
+  padding-right: 0;
+}
+
+button {
+  border: none;
+  background-color: white;
+}
+button:hover {
+  color: lightgray;
+}
+button:active {
+  color: red;
+}
+.bgbg {
+  background-color: white;
+  width: 9rem;
+  height: 2.4rem;
+  border-radius: 17px;
+}
+.bgbg:hover {
+  background-color: rgb(251, 255, 192) !important;
+  color: rgba(0, 0, 0, 0.212) !important;
+}
+.bcc {
+  margin-top: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.205);
+  border-radius: 1rem;
+}
+.ppp {
+  /* margin-left: 2rem;
+  margin-top: 28rem;
+  min-height: 3rem; */
+  border: 1px solid rgba(0, 0, 0, 0.205);
+  border-radius: 2rem;
+}
+.ppp1 {
+  border-right: 1px solid rgba(0, 0, 0, 0.205);
+}
+
+.tab {
+  display: flex;
+  flex-direction: column;
+  gap: 20;
+  /* min-width:40rem; */
+}
